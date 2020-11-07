@@ -1,0 +1,24 @@
+#dataTable {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 10%;
+  margin-top: 0;
+}
+
+#dataTable th, #dataTable td {
+  border: 1px solid #e8d8d8;
+  text-align: right;
+  padding: 8px;
+}
+
+#dataTable th:first-child, #dataTable td:first-child {
+  text-align: left;
+}
+
+#dataTable th {
+  background-color: #a1efa1;
+}
+
+#dataTable tr:hover {
+  background-color: #e8d8d8;
+}

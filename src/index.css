@@ -1,0 +1,17 @@
+* {
+    font-family: 'Cuprum', sans-serif;
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+}
+
+.mainHeading {
+    text-align: center;
+    margin-top: 3% !important;
+}
+
+#modalButton {
+    text-align: center;
+}

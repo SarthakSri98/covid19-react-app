@@ -1,0 +1,34 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 6%;
+    margin-right: 4%;
+}
+
+.card {
+    background-color: #a1efa1;
+    ;
+    height: 250px;
+    width: 10%;
+    display: inline-block;
+    margin-left: 4%;
+    box-shadow: 0px 16px 10px -8px #4c4545;
+    border-radius: 10px;
+    text-align: center;
+    transition: all ease-in .2s;
+}
+
+.card:hover {
+    box-shadow: 0px 32px 15px -15px #4c4545;
+    transform: translate(0, -7px);
+}
+
+.heading {
+    font-size: 20px;
+    padding-top: 20%;
+}
+
+.data {
+    font-size: 30px;
+}

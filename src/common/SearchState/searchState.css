@@ -1,0 +1,35 @@
+#inputContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+#search {
+    width: 30%;
+    height: 40px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid #34d6ce;
+}
+
+#suggestionBox {
+    background-color: white;
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 30%;
+    padding: 0 0 1% 1%;
+    box-shadow: 2px 2px 5px #efd7d7;
+    z-index: 1;
+}
+
+.suggestionItems {
+    margin-top: 20px;
+}
+
+.suggestionItems:hover {
+    background-color: blanchedalmond;
+    cursor: pointer;
+    transition: .2s;
+}
